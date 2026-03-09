@@ -1,0 +1,6 @@
+SELECT 
+    EMP_ID,
+    EMP_NAME,
+    HIRE_DATE
+FROM employee
+WHERE EMP_NAME LIKE '김%';

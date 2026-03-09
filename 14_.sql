@@ -1,0 +1,6 @@
+SELECT
+    EMP_ID,
+    EMP_NO,
+    DEPT_CODE
+FROM employee
+WHERE EMP_NAME LIKE '%하%';

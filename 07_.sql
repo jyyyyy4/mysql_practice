@@ -1,0 +1,6 @@
+SELECT
+    EMP_NAME,
+    SALARY
+FROM employee
+WHERE DEPT_CODE = 'D6' AND 
+    SALARY >= 3000000;

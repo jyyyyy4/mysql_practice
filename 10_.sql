@@ -1,6 +1,6 @@
 SELECT
     EMP_ID,
     EMP_NAME,
-    SALARY
+    HIRE_DATE
 FROM employee
-WHERE SALARY >= 3000000;
+WHERE ENT_YN= 'N';

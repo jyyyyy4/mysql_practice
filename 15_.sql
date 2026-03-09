@@ -1,0 +1,6 @@
+SELECT
+    EMP_NAME,
+    SALARY
+FROM employee
+WHERE (JOB_CODE = 'J2' OR JOB_CODE ='J7')
+    AND SALARY >= 2000000;

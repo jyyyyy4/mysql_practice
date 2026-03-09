@@ -1,0 +1,5 @@
+SELECT
+    EMP_ID,
+    EMP_NAME
+FROM employee
+WHERE DEPT_CODE <> 'D9';
