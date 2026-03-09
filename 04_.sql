@@ -1,0 +1,6 @@
+SELECT 
+    EMP_NAME,
+    DEPT_CODE
+    
+FROM employee
+WHERE DEPT_CODE = 'D9';
