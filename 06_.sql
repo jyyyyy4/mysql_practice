@@ -1,0 +1,6 @@
+SELECT
+    EMP_ID,
+    EMP_NAME,
+    SALARY
+FROM employee
+WHERE SALARY >= 300;
