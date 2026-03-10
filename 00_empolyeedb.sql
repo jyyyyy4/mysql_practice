@@ -1,4 +1,3 @@
--- Active: 1773043350288@@127.0.0.1@3306@employeedb
 -- Dropping existing tables if they exist
 DROP TABLE IF EXISTS EMPLOYEE;
 DROP TABLE IF EXISTS DEPARTMENT;
