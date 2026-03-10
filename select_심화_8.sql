@@ -1,0 +1,13 @@
+SELECT
+a.EMP_ID,
+a.EMP_NAME,
+b.JOB_NAME,
+c.DEPT_TITLE,
+d.LOCAL_NAME,
+a.SALARY
+FROM employee a
+JOIN job b ON (a.JOB_CODE = b.JOB_CODE)
+JOIN department c ON (a.DEPT_CODE = c.DEPT_ID)
+JOIN location d ON (c.LOCATION_ID = d.LOCAL_CODE)
+WHERE b.JOB_NAME = '대리' 
+  AND d.LOCAL_NAME IN ('ASIA1', 'ASIA2', 'ASIA3');
