@@ -1,7 +1,7 @@
 SELECT 
-    b.DEPT_TITLE,               
-    COUNT(*) AS "직원 수",        
-    FLOOR(AVG(a.SALARY)) AS "평균 급여" 
+    b.DEPT_TITLE,
+    FLOOR(AVG(a.SALARY)) AS "평균 급여",              
+    COUNT(*) AS "직원 수"       
 FROM employee a
 JOIN department b ON (a.DEPT_CODE = b.DEPT_ID)
 WHERE a.SALARY IS NOT NULL     
