@@ -1,0 +1,7 @@
+SELECT
+    a.EMP_NAME,
+    b.JOB_NAME,
+    a.SALARY
+FROM employee a
+JOIN job b ON (a.JOB_CODE = b.JOB_CODE)
+WHERE a.BONUS IS NULL AND a.JOB_CODE IN ('J4', 'J7');
